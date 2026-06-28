@@ -1,0 +1,62 @@
+canonical_identifier: bkk:krp/KR1e0098/v1
+canonical_location: https://kanripo.org/bkk/KR1e0098/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 春秋四傳糾正
+  date: '2015-08-24 22:16:50.560075'
+  source:
+    repository: kanripo
+    path: KR1e0098
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR1e0098_000.yaml, hash: 'sha256:4721cf29f3f653f10eb5ed7373cc816c4764a1305fbd39f60a2edaed08393571'}
+  - {seq: 1, filename: KR1e0098_001.yaml, hash: 'sha256:199c51108a27e38dc012ad160fc5c767bec3a638c6dc374b3fe28b63a8517ac3'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR1e0098_000.markers.yaml, hash: 'sha256:bfd5dd4a0e52e042effe5e5f482e8daef274ade6ff17a50977fd6ea45177effb'}
+  - {seq: 1, role: markers, filename: assets/KR1e0098_001.markers.yaml, hash: 'sha256:73d61e36ca57356c20a67155a293f5fc038bfe49eeb3419cd785cd1755dd088f'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR1e0098_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 523
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR1e0098_WYG_000-4a
+    span:
+    - body
+    - 523
+    - 948
+  label: 原序
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR1e0098_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 11603
+  label: 春秋四傳糾正
+  type: section
+  level: 1
+hash: sha256:3869cc3eb870bf8d8f3db66020005d4f9bf5b99b5a05d1170c48ccde3feae119
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
