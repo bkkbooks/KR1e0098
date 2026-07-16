@@ -23,7 +23,7 @@ assets:
   - {seq: 0, filename: KR1e0098_000.yaml, hash: 'sha256:3c2b978cb6d05b2016fb82839cd51a192ec694db7c491ec36d93e64ac4014c73'}
   - {seq: 1, filename: KR1e0098_001.yaml, hash: 'sha256:3ce6c0ac1d950c780bfa54f898a0353aa67b49a2917b0d181e1bc2df0c22cfbc'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR1e0098_000.markers.yaml, hash: 'sha256:a494ae96575627b7c5991500b5b501cf30fa128413cd6ee278c01fe376a41a1f'}
+  - {seq: 0, role: markers, filename: assets/KR1e0098_000.markers.yaml, hash: 'sha256:69c137fc38a692655db08634c639ec82bbaa21a075dd239d315ec5e43bfd4d10'}
   - {seq: 1, role: markers, filename: assets/KR1e0098_001.markers.yaml, hash: 'sha256:16883d6e31cd96c5d8846c2e3e225338142ed13d54f7af5694664b8eaf3012b7'}
 table_of_contents:
 - ref:
@@ -56,7 +56,7 @@ table_of_contents:
   label: 春秋四傳糾正
   type: section
   level: 1
-hash: sha256:bf506844f96f7a5d4b37d44af5b7e0fd06e6272add497425f1b34563ca947bde
+hash: sha256:4d9b4714703bd6b7552f90c6417106adf90e00442c4cd4582ea4bfc7a806ffc2
 mappings:
 - canonical_identifier: bkk:mapping/variant-fold-v1
   hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
